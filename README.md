@@ -31,3 +31,11 @@ Al sistema le hemos integrado 2 maneras de parar el sitema en caso de fallo y un
 La ultima medida de protección es un sensor de barrera fotoeléctrica que en caso de ser activada se enciende una luz de manera interrumpida dando aviso que alguien a entrado al perimetro de peligro.
 En todas la etapas tenemos algun mensaje mostrandose en el automata y según la etapa el mensaje es balnco, ambar o rojo.
 ![image](https://github.com/user-attachments/assets/f909d059-d713-4f57-9f2c-ef849695838c)
+
+Para el variador de frecuencia
+esta para el potenciometro
+![image](https://github.com/user-attachments/assets/6bf49472-d886-487f-9af2-7d99e06bb652)
+
+conexion botonera.
+
+![image](https://github.com/user-attachments/assets/905727c4-7e76-469f-bf4c-608b479f37f2)
