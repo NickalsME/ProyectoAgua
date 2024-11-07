@@ -8,7 +8,7 @@ El motor de la bomba debe ser trifásico, de una potencia aprox. 0.18 kW, 230/40
 El control del sistema se realizará tanto de manera automática como manual que se seleccionará mediante un selector. Es importante que la regulación sea PID de lazo cerrado en función de la demanda de agua. Debe tener una parada de emergencia y los distintos estados de funcionamiento identificados con pilotos de colores, verde (automático), naranja (manual) y rojo (parada de emergencia). El punto de llenado del depósito (consigna) debe realizarse mediante un potenciómetro. El nivel del depósito se medirá mediante un transductor ultrasónico analógico. Cada equipo diseñará su propio sensor ultrasonido.
 
 Para poder realizar este sistema de regulación necesitaremos:
--Esquema electrico (CADeSIMU) para el montaje del proyecto.
+-Esquema electrico (CADeSIMU) para el montaje del proyecto./nl
 -El programa para los automatas en LOGOSoft! Comfort.
 -Programa en C++ con las librerias de arduino para la ESP32.
 -Una raspberry pi 4 con NodeRed y Mosquitto (microprocesador).
