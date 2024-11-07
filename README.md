@@ -39,3 +39,7 @@ esta para el potenciometro
 conexion botonera.
 
 ![image](https://github.com/user-attachments/assets/905727c4-7e76-469f-bf4c-608b479f37f2)
+Imágenes del resultado
+![image](https://github.com/NickalsME/ProyectoAgua/blob/e5cb1fc39b095bc7fadbc87764331268e1275580/20241030_165718.jpg)
+![image](https://github.com/NickalsME/ProyectoAgua/blob/e5cb1fc39b095bc7fadbc87764331268e1275580/20241030_165648.jpg)
+![image](https://github.com/NickalsME/ProyectoAgua/blob/e5cb1fc39b095bc7fadbc87764331268e1275580/20241030_165744.jpg)
