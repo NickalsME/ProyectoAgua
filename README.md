@@ -8,19 +8,19 @@ El motor de la bomba debe ser trifásico, de una potencia aprox. 0.18 kW, 230/40
 El control del sistema se realizará tanto de manera automática como manual que se seleccionará mediante un selector. Es importante que la regulación sea PID de lazo cerrado en función de la demanda de agua. Debe tener una parada de emergencia y los distintos estados de funcionamiento identificados con pilotos de colores, verde (automático), naranja (manual) y rojo (parada de emergencia). El punto de llenado del depósito (consigna) debe realizarse mediante un potenciómetro. El nivel del depósito se medirá mediante un transductor ultrasónico analógico. Cada equipo diseñará su propio sensor ultrasonido.
 
 Para poder realizar este sistema de regulación necesitaremos:
--Esquema electrico (CADeSIMU) para el montaje del proyecto./nl
--El programa para los automatas en LOGOSoft! Comfort.
--Programa en C++ con las librerias de arduino para la ESP32.
--Una raspberry pi 4 con NodeRed y Mosquitto (microprocesador).
--Un ESP32 (microcontrolador) en el cual a travez de codigo le implementaremos las funcionalidades que necesitamos como la interpretación de datos del ultrasonido.
--PLC para poder hacer la automatización del proceso, en nuestro caso 3 modulos LOGO, 1 de alterna, 1 de directa y 1 acople de salidas analogicas.
--Ultrasonido (Para medir el nivel del agua).
--Detectores Capacitivo (Para evitar el desbordamiento), Inductivo (para el rearme del sistema) y de Barrera (para evitar que gente entre al perimetro peligroso).
--Variador de frecuencia (Para controlar la bomba de agua).
--Botonera (Inicio y pare).
--Selector (Manual/Automatico).
--Potenciometro (para la variacion de frecuencia en manual o el setpoint del regulador PI en automatico).
--Seta de emergencia.
+-Esquema electrico (CADeSIMU) para el montaje del proyecto.<br/>
+-El programa para los automatas en LOGOSoft! Comfort.<br/>
+-Programa en C++ con las librerias de arduino para la ESP32.<br/>
+-Una raspberry pi 4 con NodeRed y Mosquitto (microprocesador).<br/>
+-Un ESP32 (microcontrolador) en el cual a travez de codigo le implementaremos las funcionalidades que necesitamos como la interpretación de datos del ultrasonido.<br/>
+-PLC para poder hacer la automatización del proceso, en nuestro caso 3 modulos LOGO, 1 de alterna, 1 de directa y 1 acople de salidas analogicas.<br/>
+-Ultrasonido (Para medir el nivel del agua).<br/>
+-Detectores Capacitivo (Para evitar el desbordamiento), Inductivo (para el rearme del sistema) y de Barrera (para evitar que gente entre al perimetro peligroso).<br/>
+-Variador de frecuencia (Para controlar la bomba de agua).<br/>
+-Botonera (Inicio y pare).<br/>
+-Selector (Manual/Automatico).<br/>
+-Potenciometro (para la variacion de frecuencia en manual o el setpoint del regulador PI en automatico).<br/>
+-Seta de emergencia.<br/>
 
 Explicación del funcionamiento.
 El sistema funciona mediante una botonera que está conectada a un autómata, la botonera se compone de un botón de arranque, uno de parada y un selector el cual nos permite seleccionar el modo automático o el modo manual.
